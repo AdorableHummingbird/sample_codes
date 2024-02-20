@@ -33,8 +33,8 @@ int period_conv(long input, int *y, int *d)
 {
     int temp, mon;
 
-    *y=input%10000;             /*1945*/
-    temp=input/10000;           /*1508*/
+    *y=input%10000;         /*1945*/
+    temp=input/10000;       /*1508*/
     mon=temp%100;           /*08*/
     *d=temp/100;            /*15*/
 
