@@ -5,7 +5,7 @@ dd, month, yyyy
 
 #include <stdio.h>
 
-int period_conv(long,int *, int *);
+int period_conv(long, int*, int*);
 
 int main(void)
 {
