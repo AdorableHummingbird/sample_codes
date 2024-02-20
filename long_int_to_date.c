@@ -11,7 +11,7 @@ int main(void)
 {
     long input;
     int year, date, mon;
-    char *mon_data[20]={"January","February","March","April","May","June","July","August","September","October","November","December"};
+    char *mon_data[15]={"January","February","March","April","May","June","July","August","September","October","November","December"};
     char *month;
     printf("Please enter the period in long form: ");
     scanf("%ld",&input);        /*15081945 */
